@@ -1,7 +1,7 @@
 {
   "main.css": "/react-thingy/static/css/main.287b10d4.chunk.css",
-  "main.js": "/react-thingy/static/js/main.3177389f.chunk.js",
-  "main.js.map": "/react-thingy/static/js/main.3177389f.chunk.js.map",
+  "main.js": "/react-thingy/static/js/main.d2e2393d.chunk.js",
+  "main.js.map": "/react-thingy/static/js/main.d2e2393d.chunk.js.map",
   "static/js/1.10921875.chunk.js": "/react-thingy/static/js/1.10921875.chunk.js",
   "static/js/1.10921875.chunk.js.map": "/react-thingy/static/js/1.10921875.chunk.js.map",
   "static/js/2.fab6e9bb.chunk.js": "/react-thingy/static/js/2.fab6e9bb.chunk.js",
@@ -11,6 +11,6 @@
   "static/media/logo.svg": "/react-thingy/static/media/logo.06e73328.svg",
   "static/css/main.287b10d4.chunk.css.map": "/react-thingy/static/css/main.287b10d4.chunk.css.map",
   "index.html": "/react-thingy/index.html",
-  "precache-manifest.2e9dccf33e8625b5fcf0662103d97683.js": "/react-thingy/precache-manifest.2e9dccf33e8625b5fcf0662103d97683.js",
+  "precache-manifest.750e532a089d0abd70724ec564518661.js": "/react-thingy/precache-manifest.750e532a089d0abd70724ec564518661.js",
   "service-worker.js": "/react-thingy/service-worker.js"
 }

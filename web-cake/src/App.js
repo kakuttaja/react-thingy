@@ -1,23 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import cat from './catto3.jpg';
+
+function Tests() {
+  return (
+    <div 
+    className="Test">
+      <div
+        className="transitionDiv" >
+        <p>This is a cake-test component.</p>
+      </div>
+    </div>
+  );
+}
+
+function Catto() {
+  return (  
+    <div className="CatDiv">
+      <img src={cat} className="App-logo" alt="logo"/>
+    </div>
+  );
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Catto />
         <p>
-          why must you do this to me Edit <code>src/App.js</code> and save to reload.AAAAAAAAAAAAAAAAAA
+          Cake
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with a Cake
-        </a>
+        <Tests />
       </header>
     </div>
   );

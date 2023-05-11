@@ -1,30 +1,36 @@
 .App {
   text-align: center;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .App-logo {
-  height: 40vmin;
+  height: inherit;
+  width: inherit;
   pointer-events: none;
   border-radius: 100%;
-  /* border: 2px solid aqua; */
-  height: 40vmin;
-  transition-property: height, border;
-  transition-duration: 100ms;
-  transition-delay: 0s;
+  transition: inherit;
 }
 
 .CatDiv {
-  height: 50vmin;
-  width: 50vmin;
-  transition-property: height, border;
-  transition-duration: 100ms;
+  position: absolute;
+  padding: 0px;
+  top: 2vmin;
+  right: 5vmin;
+  height: 15vmin;
+  width: 15vmin;
+  transition-property: height, border, scale;
+  transition-duration: 50ms;
   transition-delay: 0s;
 }
 
 .CatDiv:hover .App-logo{
-  height: 50vmin;
+  scale: 1.1;
+  /* height: 35vmin; */
+  /* width: 35vmin; */
   border-radius: 100%;
-  box-shadow: 0 0 10px aqua;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 1);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -66,44 +72,4 @@
 }
 .transitionDiv:hover {
   opacity: 1
-}
-
-@keyframes inAnimation {
-  0% {
-    opacity: 0;
-    visibility: hidden;
-  }
-  100% {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
-@keyframes outAnimation {
-  0% {
-    opacity: 1;
-    visibility: visible;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-@keyframes hoverCat {
-  0% {
-    height: 40vmin;
-  }
-  100% {
-    height: 50vmin;
-  }
-}
-
-@keyframes unHoverCat {
-  0% {
-    height: 50vmin;
-  }
-  100% {
-    height: 40vmin;
-  }
 }

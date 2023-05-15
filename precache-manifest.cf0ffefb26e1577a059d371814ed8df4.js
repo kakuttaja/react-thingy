@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "283bb5c5fb2d5b95108d",
+    "revision": "d270b97fbeb204059b7f",
     "url": "/react-thingy/static/css/main.b643bca3.chunk.css"
   },
   {
-    "revision": "283bb5c5fb2d5b95108d",
-    "url": "/react-thingy/static/js/main.283bb5c5.chunk.js"
+    "revision": "d270b97fbeb204059b7f",
+    "url": "/react-thingy/static/js/main.d270b97f.chunk.js"
   },
   {
     "revision": "3d5d039f2ec4da49612f",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-thingy/static/media/catto3.38c593f4.jpg"
   },
   {
-    "revision": "41a8ecf5e1ef6f860e3258179f7238b4",
+    "revision": "daa5a4f905aeec1cbe01bde488728fb3",
     "url": "/react-thingy/index.html"
   }
 ];

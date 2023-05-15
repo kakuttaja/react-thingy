@@ -92,9 +92,9 @@ function Tests() {
 
 function Catto() {
   return (  
-    <div className="CatDiv">
+    <a className="CatDiv" href="https://github.com/kakuttaja">
       <img src={cat} className="App-logo" alt="logo"/>
-    </div>
+    </a>
   );
 }
 
